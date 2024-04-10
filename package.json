@@ -4,6 +4,7 @@
   "description": "Simple app starter using youtube api",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^2.2.3",
     "@types/lodash": "^4.17.0",
     "lodash": "^4.17.21",
     "react": "^17.0.2",
@@ -29,6 +30,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@types/babel__template": "^7.4.4",
     "@types/node": "^20.12.5",
     "@types/react": "^18.2.74",
     "@types/react-dom": "^18.2.24",
