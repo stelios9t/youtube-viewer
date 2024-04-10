@@ -1,6 +1,10 @@
 import React from "react";
+import { VideoListItemProps } from "../utils/types";
 
-const VideoListItem = ({ video, onVideoSelect }) => {
+const VideoListItem: React.FC<VideoListItemProps> = ({
+  video,
+  onVideoSelect,
+}) => {
   const imageUrl = video.snippet.thumbnails.default.url;
 
   return (
