@@ -4,7 +4,7 @@ This is a testing starter project using the Youtube API
 
 1. Add your own personal youtube API Key in App.tsx and video_detail.tsx `const API_KEY = "ADD_API_KEY_HERE";`
    you can generate one from the [Google Developer Console](https://console.developers.google.com/)
-
+2. A node version older than 18 is needed (e.g 16.20.2)
 ## Available Scripts
 
 In the project directory, you can run:
